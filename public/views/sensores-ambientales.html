@@ -1,0 +1,15 @@
+<div class="col-md-12 nopadding">
+    <ui-gmap-google-map center='map.center' zoom='map.zoom'>
+      <ui-gmap-markers models="sensors" coords="'self'" icon="'icon'" option="'options'" idKey="'id'" click="onClick">
+        <ui-gmap-windows show="show">
+                <div class="">
+                  <div ng-non-bindable>{{datos.id}}</div>
+                  <div ng-non-bindable>{{datos.noise}}</div>
+                  <div ng-non-bindable>{{datos.light}}</div>
+                  <div ng-non-bindable>{{datos.temperature}}</div>
+                  <div ng-non-bindable>{{datos.battery}}</div>
+                </div>
+        </ui-gmap-windows>
+      </ui-gmap-markers>
+    </ui-gmap-google-map>
+</div>

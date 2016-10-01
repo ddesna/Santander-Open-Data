@@ -1,0 +1,22 @@
+html,body { height: 100%; margin: 0px; padding: 0px; padding-top: 25px; overflow: hidden;}
+.angular-google-map,
+.angular-google-map-container {height: 95vh;}
+.marker_labels {color: blue}
+.nopadding{ padding: 0 !important; margin: 0 !important;}
+
+
+.navbar-default{background-color: #F5F5F5; border: 0px;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav >
+.active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: #e7e7e7;
+}
+
+@media (max-width: 768px)
+{
+  .angular-google-map-container {height: 81vh;}
+}
+
+@media (max-width: 768px) and (orientation:landscape)
+{
+  .angular-google-map-container {height: 86vh;}
+}

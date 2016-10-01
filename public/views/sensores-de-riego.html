@@ -1,0 +1,21 @@
+<div class="col-md-12 nopadding">
+    <ui-gmap-google-map center='map.center' zoom='map.zoom'>
+      <ui-gmap-markers models="sensors" coords="'self'" idkey="'id'" icon="'icon'" option="'options'" idKey="'id'" click="onClick">
+        <ui-gmap-windows show="show">
+                <div class="">
+                  <div ng-non-bindable>{{datos.id}}</div>
+                  <div ng-non-bindable>{{datos.temperature}}</div>
+                  <div ng-non-bindable>{{datos.groundTemperature}}</div>
+                  <div ng-non-bindable>{{datos.windSpeed}}</div>
+                  <div ng-non-bindable>{{datos.windDirection}}</div>
+                  <div ng-non-bindable>{{datos.rainfall}}</div>
+                  <div ng-non-bindable>{{datos.radiationPAR}}</div>
+                  <div ng-non-bindable>{{datos.solarRadiation}}</div>
+                  <div ng-non-bindable>{{datos.atmosphericPressure}}</div>
+                  <div ng-non-bindable>{{datos.relativeHumidity}}</div>
+                  <div ng-non-bindable>{{datos.battery}}</div>
+                </div>
+            </ui-gmap-windows>
+      </ui-gmap-markers>
+    </ui-gmap-google-map>
+</div>
