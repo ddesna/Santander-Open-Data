@@ -11,5 +11,5 @@ docker run -p 3000:3000 std-open-data:latest
 O
 ```
 cd server
-npm run
+npm start
 ```
